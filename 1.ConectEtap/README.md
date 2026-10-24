@@ -22,7 +22,7 @@ The virtual environment (`.venv`) lives in the repository root and is shared by 
 Importing `etap.api` does not prove the service is available, so I check the import and the `ping()` separately.
 
 <!-- PEGA AQUÍ: captura del DataHub / servicio de API de ETAP funcionando. Guárdala en la carpeta 1.ConectEtap\images con el nombre etap-datahub.png -->
-![ETAP DataHub running](images/etap-datahub.png)
+![ETAP DataHub running](imagenes/etap-datahub.png)
 
 ## Requirements
 
@@ -93,7 +93,7 @@ Connection test completed.
 
 [`flujo_potencia.py`](flujo_potencia.py) connects to ETAP, runs a load flow on the **IEEE 4-bus example that ships with ETAP** and prints, for each bus, its ID, type, nominal kV, voltage in % and angle in degrees.
 
-1. Open the IEEE 4-bus example from your ETAP installation.
+1. Open the IEEE 4-bus example from your ETAP installastion.
 2. Keep ETAP open with the API service active.
 3. From the repository root, run:
 
